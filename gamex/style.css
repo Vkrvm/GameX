@@ -1,0 +1,70 @@
+*:focus {
+    outline: none;
+}
+
+body{   
+    position: relative;
+    background-image: url("Aco.jpg");
+    background-size: cover;
+    overflow:hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}  
+#frm{   
+    position: absolute;
+    bottom:0 ;
+    width:30%;  
+    border-radius: 2px;  
+    margin-left: 60px;
+    margin-bottom: 40px;
+    padding: 50px; 
+    border: 20px  white ;
+    padding-right: 5px;
+
+}  
+#btn{  
+    color: #fff;  
+    background: #3876ac;  
+    padding: 7px;  
+    margin-left:60px ; 
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    margin-left: 100px;
+}  
+#btn2{
+    text-decoration: none;
+    color: #fff;  
+    background: #3876ac;  
+    padding: 7px;  
+    margin-left:60px ; 
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    margin-left: 0;
+}
+input{
+    padding: 10 15px;
+    background-color: transparent;
+    border: 2px solid black;
+     border-radius: 10px;
+     margin: 0;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+

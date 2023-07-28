@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="stylee1.css">
+</head>
+<body>
+    <div class="form signup">
+        <span class="title">Registration</span>
+
+        <form action="authenticationS.php" method="post">
+            <div class="input-field">
+                <input type="text" name="user" placeholder="Enter your username" required>
+                <i class="uil uil-user"></i>
+            </div>
+            <div class="input-field">
+                <input type="number" name="phone_n" placeholder="Enter your phone number" required>
+                <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" name="pass" class="password" placeholder="Create a password" required>
+                <i class="uil uil-lock icon"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" name="pass_c" class="password" placeholder="Confirm a password" required>
+                <i class="uil uil-lock icon"></i>
+                <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+                <div class="checkbox-content">
+                    <input type="checkbox" id="termCon">
+                    <label for="termCon" class="text">I accepted all terms and conditions</label>
+                </div>
+            </div>
+
+            <div class="input-field button">
+               <a href=""> <input type="submit" value="Signup"></a>
+            </div>
+        </form>
+</body>
+</html>
